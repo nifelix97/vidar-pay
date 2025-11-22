@@ -3,10 +3,8 @@ VidariPay Login Page
 This project is a responsive and clean Login Page for the VidariPay E-Vendor Dashboard, created as part of the frontend practical task.
 
 🚀 Tech Stack
-
-React.js
-
-CSS / Tailwind (or your styling approach)
+     * React.js
+     * Tailwind
 
 Vercel (Live Deployment)
 
