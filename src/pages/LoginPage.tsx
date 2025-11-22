@@ -104,7 +104,7 @@ export default function Login() {
                 <InPuts
                   name="email"
                   type="email"
-                  placeholder="Email"
+                  placeholder="your email"
                   value={formData.email}
                   onChange={handleChange}
                   error={errors.email}
