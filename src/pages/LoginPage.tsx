@@ -50,28 +50,28 @@ export default function Login() {
 
   return (
     <div className="relative flex min-h-screen overflow-hidden bg-gray-100">
-      <div className="absolute -top-20 -left-20 w-40 h-40 sm:w-60 sm:h-60 bg-primary-50 rounded-full z-0">
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-32 h-32 sm:w-48 sm:h-48 bg-white rounded-full">
+      <div className="absolute -top-12 -left-12 w-40 h-40 sm:w-40 sm:h-40 bg-primary-50 rounded-full z-0">
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-28 h-28 sm:w-28 sm:h-28 bg-white rounded-full flex items-center justify-center">
           <img
             src={vidari}
             alt="Vidari Logo"
-            className="w-16 h-16 sm:w-24 sm:h-24 m-8 ml-12 mt-12"
+            className="w-16 h-16 sm:w-16 sm:h-16"
           />
         </div>
       </div>
-      <div className="absolute -bottom-20 -right-20 w-40 h-40 sm:w-60 sm:h-60 bg-primary-50 rounded-full z-0">
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-32 h-32 sm:w-48 sm:h-48 bg-white rounded-full">
+      <div className="absolute -bottom-12 -right-12 w-40 h-40 sm:w-40 sm:h-40 bg-primary-50 rounded-full z-0">
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-28 h-28 sm:w-28 sm:h-28 bg-white rounded-full flex items-center justify-center">
           <img
             src={vidari}
             alt="Vidari Logo"
-            className="w-16 h-16 sm:w-24 sm:h-24 m-8 mb-32"
+            className="w-16 h-16 sm:w-16 sm:h-16"
           />
         </div>
       </div>
 
-      <div className="relative z-10 flex flex-col lg:flex-row items-center justify-center w-full min-h-screen p-4 sm:p-6 lg:p-8">
-        <div className="w-full max-w-6xl bg-white rounded-3xl shadow-2xl overflow-hidden flex flex-col lg:flex-row">
-          <div className="hidden lg:flex lg:w-1/2 bg-primary-50 relative items-center justify-center p-12">
+      <div className="relative z-10 flex flex-col lg:flex-row items-center justify-center w-full min-h-screen p-2 sm:p-4 md:p-6 lg:p-8">
+        <div className="w-full max-w-5xl bg-white rounded-2xl sm:rounded-3xl shadow-2xl overflow-hidden flex flex-col lg:flex-row">
+          <div className="hidden lg:flex lg:w-1/2 bg-primary-50 relative items-center justify-center p-8 lg:p-12">
             <div className="absolute top-10 right-10 w-32 h-32 bg-primary-100 rounded-full"></div>
             <div className="absolute bottom-20 left-10 w-24 h-24 bg-primary-100 bg-opacity-10 rounded-full"></div>
 
@@ -89,11 +89,11 @@ export default function Login() {
 
           <div className="w-full lg:w-1/2 p-6 sm:p-8 lg:p-12 flex flex-col justify-center">
             <div className="max-w-md mx-auto w-full">
-              <h1 className="text-2xl sm:text-3xl font-bold text-primary-50 mb-2 text-center lg:text-left">
+              <h1 className="text-2xl sm:text-3xl font-bold text-primary-50 mb-2 text-left">
                 LOGIN
               </h1>
-              <div className="mb-6 sm:mb-8 flex flex-row items-center lg:items-start ">
-                <p className="text-sm text-primary-100 mb-6 sm:mb-8 text-center lg:text-left flex flex-row">
+              <div className="mb-6 sm:mb-8 flex flex-row items-start">
+                <p className="text-sm text-primary-100 mb-6 sm:mb-8 text-left flex flex-row">
                   to get started with 
                   <span className="font-bold ml-1 text-primary-50">Vidari</span>
                   <span className="font-bold">Pay</span>
